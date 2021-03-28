@@ -1,0 +1,31 @@
+.lead__image {
+  width: 928px;
+  height: 580px;
+  margin: 56px 48px 8px 48px;
+
+  background-image: url(../../../images/kalegin-michail-179870-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (min-width: 1280px) {
+  .lead__image {
+    width: 984px;
+    height: 615px;
+    margin-left: 148px;
+    margin-right: 148px;
+  }
+}
+@media (max-width: 768px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;
+    margin-left: auto;
+  }
+}
+@media (max-width: 320px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+    margin-left: auto;
+  }
+}

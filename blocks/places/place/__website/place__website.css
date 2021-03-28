@@ -1,0 +1,22 @@
+.place__website {
+  margin-top: 106px;
+  margin-bottom: 48px;
+  padding: 0px;
+  width: 456px;
+  max-height: 46px;
+  border: red 1px solid;
+}
+@media (max-width: 768px) {
+  .place__website {
+    width: 352px;
+    height: 46px;
+    margin-top: 46px;
+  }
+}
+@media (max-width: 320px) {
+  .place__website {
+    width: 288px;
+    height: 46px;
+    margin: 32px 16px;
+  }
+}

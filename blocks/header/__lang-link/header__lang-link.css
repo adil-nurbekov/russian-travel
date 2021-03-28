@@ -1,0 +1,13 @@
+.header__lang-link {
+  margin: 46px 48px 54px 0px;
+}
+@media (max-width: 768px) {
+  .header__lang-link {
+    margin: 46px 24px 54px 0px;
+  }
+}
+@media (max-width: 320px) {
+  .header__lang-link {
+    margin: 30px 16px 56px 0px;
+  }
+}

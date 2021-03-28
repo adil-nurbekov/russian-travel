@@ -1,0 +1,22 @@
+.header__lang-link-text {
+  margin: 0%;
+  padding-left: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 1.17;
+  border: 1px red solid;
+  float: left;
+  text-decoration-line: none;
+  color: #ffffff;
+}
+.header__lang-link-text:hover {
+  text-decoration: underline;
+}
+@media (max-width: 320px) {
+  .header__lang-link-text {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

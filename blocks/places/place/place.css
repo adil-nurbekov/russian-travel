@@ -1,0 +1,17 @@
+.place {
+  margin: 0px;
+  padding: 0px;
+  max-width: 928px;
+  min-height: 640px;
+  border: red 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+@media (max-width: 320px) {
+  .place {
+    width: 320px;
+    height: 1042px;
+    display: block;
+  }
+}

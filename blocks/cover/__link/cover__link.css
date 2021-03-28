@@ -1,0 +1,23 @@
+.cover__link {
+  text-decoration: none;
+  display: block;
+  background-image: url(../../../images/__background.jpg);
+  position: relative;
+  background-size: 100% 100%;
+  z-index: 1;
+}
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 0.7s ease-in-out;
+}
+.cover__link:hover::after {
+  opacity: 0.8;
+}
