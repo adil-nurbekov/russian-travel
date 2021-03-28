@@ -1,6 +1,4 @@
 .footer__links {
-
-
   margin-left: 48px;
 }
 @media (max-width: 320px) {
@@ -10,3 +8,5 @@
     margin-left: 16px;
     margin-top: 64px;
     margin-bottom: 48px;
+  }
+}
