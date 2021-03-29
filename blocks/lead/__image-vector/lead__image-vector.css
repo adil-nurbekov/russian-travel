@@ -1,26 +1,24 @@
 .lead__image-vector {
-  width: 883.76px;
-  height: 248.02px;
-  margin: 86px 22px 247px;
+  width: 937.09px;
+
+  margin: 0;
+  padding: 90.21px 23.64px 261.8px;
 }
-@media (min-width: 1280px) {
+@media (max-width: 1024px) {
   .lead__image-vector {
-    width: 937.09px;
-    height: 262.99px;
+    width: 883.76px;
+    padding: 85.07px 22.3px 246.9px;
   }
 }
 @media (max-width: 768px) {
   .lead__image-vector {
-    max-width: 731.38px;
-    height: 205.26px;
-    margin-left: 18px;
-    margin-right: 18px;
+    width: 731.38px;
+    padding: 70.41px 18.45px 204.33px;
   }
 }
 @media (max-width: 320px) {
   .lead__image-vector {
     width: 304.74px;
-    height: 85.53px;
-    margin: 29px 7px 85px;
+    padding: 29.34px 7.69px 85.14px;
   }
 }

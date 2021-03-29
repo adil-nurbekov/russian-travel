@@ -1,5 +1,5 @@
 @import url(../vendor/styles/normalize.css);
-@import url(../fonts/Inter);
+@import url(../vendor/fonts/inter.css);
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -20,6 +20,7 @@
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/place/__title/places__title.css);
 @import url(../blocks/places/place/place.css);
+@import url(../blocks/places/place/__text/place__text.css);
 @import url(../blocks/places/place/__paragraph/place__paragraph.css);
 @import url(../blocks/places/place/__image/place__image.css);
 @import url(../blocks/places/place/__website/place__website.css);
@@ -35,20 +36,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-  src: url("../vendor/fonts/Inter-Regular.woff2") format("woff2"),
-    url("../vendor/fonts/Inter-Regular.woff2") format("woff");
-}
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-display: swap;
-  src: url("/../vendor/fonts/Inter-Bold.woff2") format("woff2")
-    url("/../vendor/fonts/Inter-Bold.woff2") format("woff");
-}

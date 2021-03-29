@@ -1,0 +1,18 @@
+.place__text {
+  width: 484px;
+}
+@media (max-width: 1024px) {
+  .place__text {
+    width: 456px;
+  }
+}
+@media (max-width: 768px) {
+  .place__text {
+    width: 352px;
+  }
+}
+@media (max-width: 320px) {
+  .place__text {
+    width: 288px;
+  }
+}
