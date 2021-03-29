@@ -1,8 +1,8 @@
 .lead__caption {
-  width: 158px;
+  max-width: 158px;
   padding: 0%;
   margin: 8px auto 92px 148px;
-  font-family: Inter;
+  font-family: "Inter", "arial";
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
