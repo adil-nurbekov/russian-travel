@@ -1,9 +1,5 @@
 .place__website-link {
-  height: 22px;
-  margin-top: 12px;
-  margin-bottom: 0px;
-
-  font-family: "Inter", "arial";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

@@ -1,11 +1,9 @@
 .header__logo {
-  background-image: url(../../../images/__logo.jpg);
-
   width: 176px;
-  height: 52px;
 
   margin: 28px 0px 48px 48px;
 }
+
 @media (max-width: 768px) {
   .header__logo {
     margin: 28px 0px 48px 24px;
@@ -14,7 +12,7 @@
 @media (max-width: 320px) {
   .header__logo {
     width: 142px;
-    height: 42px;
+
     margin: 16px 0px 48px 16px;
   }
 }

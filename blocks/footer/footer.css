@@ -1,9 +1,8 @@
 .footer {
   display: flex;
-
+  margin: 24px auto 0 auto;
   justify-content: space-between;
   align-items: flex-end;
-  height: 134px;
 }
 @media (max-width: 320px) {
   .footer {
