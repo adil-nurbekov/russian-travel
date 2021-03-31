@@ -1,13 +1,11 @@
 .lead__image-vector {
   width: 937.09px;
-
-  margin: 0;
   padding: 90.21px 23.64px 261.8px;
 }
 @media (max-width: 1024px) {
   .lead__image-vector {
-    width: 883.76px;
     padding: 85.07px 22.3px 246.9px;
+    width: 883.76px;
   }
 }
 @media (max-width: 768px) {
@@ -18,7 +16,7 @@
 }
 @media (max-width: 320px) {
   .lead__image-vector {
-    width: 304.74px;
     padding: 29.34px 7.69px 85.14px;
+    width: 304.74px;
   }
 }

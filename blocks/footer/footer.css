@@ -1,11 +1,24 @@
 .footer {
+  padding: 0%;
   display: flex;
-  margin: 24px auto 0 auto;
+  margin: 92px auto 0 auto;
   justify-content: space-between;
   align-items: flex-end;
+  width: 1184px;
+}
+@media (max-width: 1024px) {
+  .footer {
+    width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    width: 720px;
+  }
 }
 @media (max-width: 320px) {
   .footer {
     display: inline;
+    width: 186px;
   }
 }

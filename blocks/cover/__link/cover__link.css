@@ -1,9 +1,11 @@
 .cover__link {
+  margin: 0%;
+  width: 100%;
+  background-size: cover;
   text-decoration: none;
   display: block;
   background-image: url(../../../images/__background.jpg);
   position: relative;
-  background-size: 100%;
   z-index: 1;
 }
 .cover__link::after {

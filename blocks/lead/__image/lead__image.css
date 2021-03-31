@@ -1,22 +1,7 @@
 .lead__image {
-  width: 984px;
-  margin: auto;
+  width: 100%;
+  margin: 0;
   background-size: cover;
 
   background-image: url(../../../images/kalegin-michail-179870-unsplash.jpg);
-}
-@media (max-width: 1024px) {
-  .lead__image {
-    width: 928px;
-  }
-}
-@media (max-width: 768px) {
-  .lead__image {
-    width: 768px;
-  }
-}
-@media (max-width: 320px) {
-  .lead__image {
-    width: 320px;
-  }
 }

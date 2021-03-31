@@ -1,19 +1,19 @@
 .place__image {
   margin: 0%;
-  width: 460px;
+  width: 100%;
 }
 @media (max-width: 1024px) {
   .place__image {
-    width: 440px;
+    width: 100%;
   }
 }
 @media (max-width: 768px) {
   .place__image {
-    width: 340px;
+    width: 100%;
   }
 }
 @media (max-width: 320px) {
   .place__image {
-    width: 320px;
+    width: 100%;
   }
 }

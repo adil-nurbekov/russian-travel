@@ -1,5 +1,21 @@
 .header {
-  width: 100%;
+  margin: auto;
+  width: 1184px;
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 1024px) {
+  .header {
+    width: 928px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    width: 720px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    width: 320px;
+  }
 }
