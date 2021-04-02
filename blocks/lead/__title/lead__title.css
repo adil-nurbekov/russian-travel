@@ -2,21 +2,29 @@
   margin: auto;
   padding: 0 0 32px;
   max-width: 720px;
+
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
   line-height: 1.04;
-
-  color: #ffffff;
   text-align: center;
+  color: #ffffff;
+  align-content: center;
 }
-
-@media (max-width: 320px) {
+@media (max-width: 769px) {
   .lead__title {
     padding: 0 0 16px;
     font-size: 40px;
     line-height: 44px;
-    width: 288px;
+    max-width: 288px;
+  }
+}
+@media (max-width: 767px) {
+  .lead__title {
+    padding: 0 0 16px;
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 288px;
   }
 }

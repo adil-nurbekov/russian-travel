@@ -14,7 +14,7 @@
 .footer__link:hover {
   opacity: 0.8;
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .footer__link {
     padding-bottom: 32px;
   }

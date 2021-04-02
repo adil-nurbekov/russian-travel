@@ -5,16 +5,16 @@
   padding: 0px;
   justify-content: flex-end;
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .place__website {
-    width: 352px;
+    max-width: 352px;
 
     margin-top: 46px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .place__website {
-    width: 288px;
+    max-width: 288px;
 
     margin: 32px 16px;
   }

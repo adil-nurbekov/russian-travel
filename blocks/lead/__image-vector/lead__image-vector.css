@@ -1,22 +1,20 @@
 .lead__image-vector {
-  width: 937.09px;
-  padding: 90.21px 23.64px 261.8px;
+  max-width: 937.09px;
+  margin: 0%;
+  padding: 0%;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
   .lead__image-vector {
-    padding: 85.07px 22.3px 246.9px;
-    width: 883.76px;
+    max-width: 883.76px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .lead__image-vector {
-    width: 731.38px;
-    padding: 70.41px 18.45px 204.33px;
+    max-width: 731.38px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .lead__image-vector {
-    padding: 29.34px 7.69px 85.14px;
-    width: 304.74px;
+    max-width: 304.74px;
   }
 }
