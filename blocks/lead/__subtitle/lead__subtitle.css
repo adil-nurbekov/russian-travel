@@ -1,6 +1,6 @@
 .lead__subtitle {
   margin: auto;
-  padding: 0 0 62px;
+  padding: 0 0 64px;
   max-width: 640px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -12,18 +12,16 @@
   text-align: center;
   align-content: center;
 }
-@media (max-width: 767px) {
+@media (max-width: 1279px) {
   .lead__subtitle {
-    max-width: 288px;
-
-    font-size: 16px;
-    line-height: 20px;
+    padding-bottom: 56px;
   }
 }
+
 @media (max-width: 767px) {
   .lead__subtitle {
     max-width: 288px;
-
+    padding-bottom: 40px;
     font-size: 16px;
     line-height: 20px;
   }

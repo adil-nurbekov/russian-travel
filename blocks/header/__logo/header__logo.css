@@ -4,8 +4,8 @@
   background-image: url(../../../images/__logo.svg);
   background-size: cover;
 
-  margin: 0px;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
