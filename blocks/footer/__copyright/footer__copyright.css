@@ -10,3 +10,8 @@
 
   color: #ffffff;
 }
+@media (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 12px;
+  }
+}

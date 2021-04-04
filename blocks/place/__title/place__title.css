@@ -1,8 +1,8 @@
 .place__title {
   max-width: 460px;
-  padding: 0%;
+  padding: 0;
   margin: 0;
-
+  align-self: end;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
@@ -20,7 +20,7 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    max-width: 340px;
+    max-width: 330px;
   }
 }
 @media (max-width: 767px) {
