@@ -12,10 +12,7 @@
   text-decoration-line: none;
   color: #ffffff;
 }
-.header__lang-link-text:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-}
+
 @media (max-width: 767px) {
   .header__lang-link-text {
     font-size: 18px;

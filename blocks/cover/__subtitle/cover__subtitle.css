@@ -1,4 +1,5 @@
 .cover__subtitle {
+  padding-top: 32px;
   max-width: 360px;
   margin: auto;
   font-family: "Inter", Arial, sans-serif;
@@ -14,6 +15,7 @@
 
 @media (max-width: 767px) {
   .cover__subtitle {
+    padding-top: 16px;
     font-size: 14px;
     line-height: 16px;
   }
